@@ -4,8 +4,8 @@ def beeramid(bonus, price):
     i = 1
     while(sum <= avCan):
         sum += i * i
-        i += i
-    return i - 1
+        i += 1
+    return i - 2, sum
 
 
-print()
+print(beeramid(1500, 2))
